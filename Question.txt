@@ -1,0 +1,5 @@
+¿Por qué si los atributos "origen" y "fin" de los vectores son private, se pueden
+acceder desde la sobrecarga del operador sin usar "getters"?
+
+Se pueden acceder debido a que son privados para el uso fuera de la clase, sin embargo dentro pueden ser
+utilizados de manera regular.
